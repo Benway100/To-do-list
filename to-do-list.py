@@ -21,6 +21,7 @@ class ToDoList:
     
     def marco(self):
         True
+        False
         self.lunes = ctk.CTkLabel(master=self.master, text="Lunes", text_color="#000000", font=("Arial", 16))
         self.lunes.grid(row=0, column=0, padx=15)
         self.martes = ctk.CTkLabel(master=self.master, text="Martes", text_color="#000000", font=("Arial", 16))
