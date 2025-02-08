@@ -37,7 +37,6 @@ class ToDoList:
     def question(self):
         self.name = ctk.CTkEntry(master=self.master, placeholder_text="Ingresa el nombre de tu tarea", placeholder_text_color="#ffffff", fg_color="#797d7f", width=180)
         self.name.grid(row=1, column=7, pady=15)
-        
         self.textday = ctk.CTkLabel(master=self.master, text="¿Que dia es tu tarea?", text_color="#000000")
         self.textday.grid(row=2, column=7)
         
