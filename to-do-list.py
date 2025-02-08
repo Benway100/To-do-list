@@ -39,7 +39,6 @@ class ToDoList:
         self.name.grid(row=1, column=7, pady=15)
         self.textday = ctk.CTkLabel(master=self.master, text="¿Que dia es tu tarea?", text_color="#000000")
         self.textday.grid(row=2, column=7)
-        
         self.day = ctk.CTkComboBox(master=self.master, values=["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"], fg_color="#797d7f")
         self.day.grid(row=3, column=7, pady=10)
         
